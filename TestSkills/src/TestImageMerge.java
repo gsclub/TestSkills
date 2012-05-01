@@ -32,7 +32,7 @@ public class TestImageMerge
 			graphics.drawImage(image1, 0, 30, null);
 			
 			
-			ImageIO.write(mergedImage, "png", new File("/Images/result.png"));
+			//ImageIO.write(mergedImage, "png", new File("/Images/result.png"));
 			// ImageIO.write(mergedImage, "jpg", new File("c:\\mergedImage.jpg"));
 			// ImageIO.write(mergedImage, "png", new File("c:\\mergedImage.png"));
 		}
